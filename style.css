@@ -123,11 +123,10 @@ match info ends---*/
 
 .blog{
     border: 1px solid lightgrey;
-    border-radius: 10px;
-
-
-  
-
+    border-radius: 15px;
+}
+.img1{
+    width: 450px;
 }
 .blog-link{
     font-size: 20px;
@@ -141,7 +140,7 @@ match info ends---*/
 .blog-div{
     padding: 30px;
     margin-left: 15px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .fa-message{
@@ -254,7 +253,7 @@ footer{
 
     /*.....mobile responsive...*/
 
-    @media only screen and (max-width:480px) {
+    @media only screen and (max-width:575px) {
     
     .container{
         width: 100%;
@@ -300,12 +299,20 @@ background-color: white;
     margin-left: 40px;
 }
 
+
 .blogs{
     grid-template-columns: repeat(1,1fr);
 }
 .blog{
- width:311px;
-margin-left: 30px;
+ width:450px;
+margin-left: 10px;
+}
+.match-country{
+    grid-template-columns: repeat(1,1fr);
+}
+.country{
+    margin-left: 10px;
+    width: 450px;
 }
 .foot hr{
  width: 400px;
