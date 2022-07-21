@@ -95,11 +95,12 @@ transition: 1s;
 }
 .match a{
 
-    color: white;
+    
     text-decoration: none;
     background-color: white;
     color: black;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 20px;
     margin-top: 25px;
     width: 200px;
     border-radius: 5px;
@@ -118,7 +119,7 @@ transition: 1s;
 /*--------
 match info ends---*/
 
-/*---Blog start---*/
+/*---player card start---*/
 
 .container1{
     display: flex;
@@ -159,7 +160,7 @@ border-radius: 10px;
     margin-left: 20px;
 }
 
-/*Blogs Ends */
+/*player card Ends */
 
 
 /*---Country Match start--*/
