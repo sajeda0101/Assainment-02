@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: lightgray;
+   
 }
 
 
@@ -9,7 +9,7 @@ body{
     max-width: 1000px;
     justify-content: center;
     margin: 0 auto;
-    background-color:white;
+    
     
     
     }
@@ -204,9 +204,9 @@ border-radius: 10px;
 
 /*---View start--*/
 .view{
-    width: 50%;
-    margin:40px auto;
-    display: none;
+    width: 20%;
+    margin:30px auto;
+   
  
 }  
 
@@ -328,6 +328,9 @@ margin-left: 30px;
     margin-left: 10px;
     width: 450px;
 }
+.view{
+    display: none;
+}
 .foot hr{
  width: 400px;
 margin-bottom: -20px;
@@ -348,7 +351,7 @@ margin-bottom: -20px;
 /*----Tablet Responsive----*/
 
 
-@media  screen and(min-width:481px) and (max-width:800px) {
+@media  screen and(min-width:576px) and (max-width:900px) {
 
     .container{
         width: 100%;
@@ -357,19 +360,23 @@ margin-bottom: -20px;
         grid-template-columns: repeat(1,1fr);
      
     }
-   
-    .blog-match{
-
-        display: flex;
-        flex-direction: column;
-       
+    .container1{
+        grid-template-columns: repeat(2,1fr);
+        display: grid;
     }
-    
-   
-   
-    
+    .view{
+       visibility: visible;
+    }
+    .nav-menu ul{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
 
     }
-     
+}
+    @media only screen and (min-width:901) and (max-width:1000px) {
+      .view{
+        display: none;
+      }
+    } 
 
     
